@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libftprintf.h                                            :+:      :+:    :+:   */
+/*   ft_unsigned.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: decabral <decabral@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/20 10:53:57 by decabral          #+#    #+#             */
-/*   Updated: 2025/10/20 10:55:32 by decabral         ###   ########.fr       */
+/*   Created: 2025/12/01 14:34:12 by decabral          #+#    #+#             */
+/*   Updated: 2025/12/01 14:35:37 by decabral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFTPRINTF_H
-# define LIBFTPRINTF_H
-# include <stdlib.h>
-# include <unistd.h>
+#include "libftprintf.h"
 
-int	ft_putchar(int c);
-int	ft_putstr(char *str);
-int	ft_putnbr(int n);
-int	ft_printf(const char *, ...);
-int	ft_puthex(unsigned long n, char format);
+int	ft_unsigned(int	n)
+{
 
-#endif
+
+}

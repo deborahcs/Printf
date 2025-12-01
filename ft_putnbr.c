@@ -9,7 +9,7 @@
 /*   Updated: 2025/11/18 17:45:17 by decabral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <libftprintf.h>
+#include "libftprintf.h"
 
 int	ft_putnbr(int n)
 {
