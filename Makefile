@@ -17,10 +17,10 @@ $(NAME): $(OBJ)
 	ar -rc $(NAME) $(OBJ)
 
 clean:
-	rm -rf $(OBJ)
+	rm -f $(OBJ)
 
 fclean: clean 
-	rm -rf $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
 

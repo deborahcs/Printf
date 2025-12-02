@@ -14,11 +14,12 @@
 # define LIBFTPRINTF_H
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
 
 int	ft_putchar(int c);
 int	ft_putstr(char *str);
 int	ft_putnbr(int n);
-int	ft_printf(const char *, ...);
+int	ft_printf(const char *str, ...);
 int	ft_puthex(unsigned long n, char format);
 
 #endif
