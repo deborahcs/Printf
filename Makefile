@@ -1,15 +1,18 @@
-COMP = cc
+CC = cc
 FLAG = -Wall -Wextra -Werror
 NAME = libftprintf.a
-FUNCTIONS = 
-
-
-
+FUNCTIONS = ft_pointer.c \
+	ft_printf.c \
+	ft_putchar.c \
+	ft_puthex.c \
+	ft_putnbr.c \
+	ft_putstr.c \
+	ft_unsigned.c
 
 OBJ = $(FUNCTIONS:.c=.o)
 
 .c.o: 
-	$(COMP) $(FLAG) -c $< -o $@
+	$(CC) $(FLAG) -c $< -o $@
 
 all: $(NAME)
 
@@ -24,3 +27,4 @@ fclean: clean
 
 re: fclean all
 
+.PHONY: all clean fclean re
