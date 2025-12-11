@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_pointer.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: decabral <decabral@student.42.rio>         +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/21 10:52:26 by decabral          #+#    #+#             */
+/*   Updated: 2025/12/05 10:55:16 by decabral         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_pointer(void *ptr)
 {
@@ -12,3 +23,8 @@ int	ft_pointer(void *ptr)
 	count += ft_puthex((unsigned long)ptr, 'x');
 	return (count);
 }
+/*#include <stdio.h>
+int main (void)
+{
+	printf("");
+}*/
