@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: decabral <decabral@student.42.rio>         +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/21 10:37:47 by decabral          #+#    #+#             */
-/*   Updated: 2025/12/05 10:54:34 by decabral         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include "ft_printf.h"
 
@@ -58,16 +47,4 @@ int	ft_printf(const char *str, ...)
 	}
 	va_end(args);
 	return (count);
-}
-#include <stdio.h>
-int main(void)
-{
-    int i = 0;
-    void *ptr = &i;
-
-    printf("Expected: Hello %s, num: %d, hex: %x, ptr: %p\n", "World", i, i, ptr);
-    
-    ft_printf("    Mine: Hello %s, num: %d, hex: %x, ptr: %p\n", "World", i, i, ptr);
-    
-    return (0);
 }
