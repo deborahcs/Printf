@@ -1,5 +1,5 @@
 
-*This project has been created as part of the 42 curriculum by <decabral>.*
+*This project has been created as part of the 42 curriculum by decabral.*
 
 # **Description:**
 - The goal of this project is to recreate the functionalities of the original function `printf` from C library (`stdio.h`). `ft_printf` prints something to the standart output (STDOUT) replicating the behavior of the original function for each specific format specifier. This project allows a deeper understanding of variadic functions, memory management and data formatting. 
